@@ -228,6 +228,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   alias gRm='git remote rename'
   alias gRu='git remote update'
   alias gRp='git remote prune'
+  alias gRpo='git remote prune origin'
   alias gRs='git remote show'
   alias gRb='git-hub-browse'
 
