@@ -30,6 +30,9 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   # Git
   alias g='git'
 
+  # Status (s)
+  alias gs='git status'
+
   # Branch (b)
   alias gb='git branch'
   alias gba='git branch --all --verbose'
@@ -229,7 +232,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   alias gRb='git-hub-browse'
 
   # Stash (s)
-  alias gs='git stash'
+  alias gst='git stash'
   alias gsa='git stash apply'
   alias gsx='git stash drop'
   alias gsX='git-stash-clear-interactive'
