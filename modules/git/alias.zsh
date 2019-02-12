@@ -217,6 +217,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
 
   # Rebase (r)
   alias gr='git rebase'
+  alias grm='git rebase master'
   alias gra='git rebase --abort'
   alias grc='git rebase --continue'
   alias gri='git rebase --interactive'
